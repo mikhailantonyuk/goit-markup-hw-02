@@ -84,6 +84,7 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+text-transform: uppercase;
 }
 .hero-button {
 font-family: inherit;
@@ -151,12 +152,14 @@ color: #757575;
 /*-----Portfolio--*/
 
 .portfolio-btn-item{
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 color: #212121;
-background-color:  #F5F4FA;;
+background-color:  #F5F4FA;
+cursor: pointer;
 }
 .portfolio-btn-item:hover, .portfolio-btn-item:focus{
     color: #FFFFFF;
@@ -200,7 +203,7 @@ color: #757575;
     color:#FFFFFF ;    
 }
 .main-footer{background-color: #212121;}
-.footer-adress, .footer-tel, .footer-mail{    
+.footer-tel, .footer-mail{    
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -209,8 +212,17 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 } 
+.footer-adress:{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+ }
 .footer-adress:hover, .footer-adress:focus{
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover, .footer-tel:focus{
     color: #FFFFFF;

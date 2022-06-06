@@ -2,6 +2,9 @@
     --header-color: #212121;
     --accent-color: #2196F3;
     --header-tel-color: #757575;
+    --main-text-color: #FFFFFF;
+    --main-accent-color: #F5F4FA;
+    --hero-main-color: #2F303A;
 }
 
 .list{
@@ -10,7 +13,7 @@
 
 body {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
-    color: #212121;
+    color : var(--header-color);
 }
 .v{
     position: absolute;
@@ -30,7 +33,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--header-color);
   }
   .header-link:focus, .header-link:hover, .header-link:active{
       color: var(--accent-color);
@@ -53,7 +56,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--header-tel-color);
   }
   .header-logo-left{
     font-family: 'Raleway';
@@ -73,17 +76,17 @@ body {
   }
   /*stilization main*/
 .our-command {
-      background-color: #F5F4FA;;
+      background-color: var(--main-accent-color);;
   }
   /*-----Hero----*/
-.hero-pretitle {background-color:#2F303A;
+.hero-pretitle {background-color:var(--hero-main-color);
 }
 .hero-title{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: var(--main-text-color);
 text-transform: uppercase;
 }
 .hero-button {
@@ -92,11 +95,11 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color:#2196F3 ;
+color: var(--main-text-color);
+background-color:var(--accent-color) ;
 }
 .hero-button:focus, .hero-button:hover {
-    color: #FFFFFF;
+    color: var(--main-text-color);
     background-color: #188CE8;
 }
 
@@ -106,14 +109,14 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--header-color);
 text-transform: uppercase;
 }
 .advantage-item-text{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-color: #757575;
+color: var(--header-tel-color);
 }
 /*---Activities--*/
 .activities-pretitle{
@@ -125,7 +128,7 @@ color: #757575;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--header-color);
 }
 /*---Team---*/
 .team-pretitle{
@@ -133,21 +136,21 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--header-color);
 }
 .team-item-title{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--header-color);
 }
 .team-item-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--header-tel-color);
 }
 /*-----Portfolio--*/
 
@@ -161,9 +164,10 @@ color: #212121;
 background-color:  #F5F4FA;
 cursor: pointer;
 }
+
 .portfolio-btn-item:hover, .portfolio-btn-item:focus{
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 } 
 .portfolio-item-title{
     font-weight: 700;
@@ -171,14 +175,14 @@ cursor: pointer;
     line-height: 2;
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--header-color);
 }
 .portfolio-item-text{
     font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--header-tel-color);
 }
 
 
@@ -200,9 +204,9 @@ color: #757575;
     font-size: 26px;
     line-height: 1.19x;
     letter-spacing: 0.03em;
-    color:#FFFFFF ;    
+    color: var(--main-text-color) ;    
 }
-.main-footer{background-color: #212121;}
+.main-footer{background-color: var(--header-color);}
 .footer-tel, .footer-mail{    
 font-family: 'Roboto';
 font-style: normal;
@@ -219,14 +223,14 @@ color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: var(--main-text-color);
  }
 .footer-adress:hover, .footer-adress:focus{
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover, .footer-tel:focus{
-    color: #FFFFFF;
+    color: var(--main-text-color);
 }
 .footer-mail:focus, .footer-mail:hover{
-    color: #FFFFFF;
+    color: var(--main-text-color);
 }
